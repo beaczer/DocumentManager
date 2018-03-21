@@ -1,0 +1,16 @@
+﻿@model LastChance.Models.DocumentData.Document
+@{
+    ViewBag.Title = "AddComment";
+}
+
+<h2>AddComment</h2>
+<div class="form-group">
+    @Html.LabelFor(model => model.DocumentId, "DocumentId", htmlAttributes: new { @class = "control-label col-md-2", @id = "DocType" })
+    <div class="col-md-10">
+                @Html.DisplayFor(model=>Model.DocumentId)
+                @Html.EditorFor(model => Model.Comments)
+                @Html.TextBoxFor(model=>Model.Comments, new { @class="form-control"})       
+         @Html.ActionLink("Dodaj", "AddComments", new { doc = Model.Comments }, new { id=Model.DocumentId })
+        </div>
+</div>
+

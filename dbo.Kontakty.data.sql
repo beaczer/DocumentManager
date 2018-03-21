@@ -1,0 +1,2 @@
+﻿INSERT INTO [dbo].[Kontakty] ([Id], [Imie], [Naziwsko], [Email]) VALUES (1, N'Adam                                              ', N'Nowak                                             ', N'Nowak@gmail.com                                   ')
+INSERT INTO [dbo].[Kontakty] ([Id], [Imie], [Naziwsko], [Email]) VALUES (2, N'Joanna                                            ', N'Nowak                                             ', N'jNowak@onet.pl                                    ')

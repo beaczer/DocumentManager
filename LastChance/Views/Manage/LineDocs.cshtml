@@ -1,0 +1,34 @@
+﻿@model IEnumerable<LastChance.Models.DocumentData.Line>
+
+@{
+    ViewBag.Title = "LineDocs";
+}
+
+<h2>Wykaz linii</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.LineId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LineName)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.LineId)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LineName)
+        </td>
+        <td>
+            @Html.ActionLink("Generuj listę dokumentów", "Details", new { id=item.LineId }) 
+        </td>
+    </tr>
+}
+
+</table>

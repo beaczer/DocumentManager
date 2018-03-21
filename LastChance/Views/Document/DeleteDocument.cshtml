@@ -1,0 +1,58 @@
+﻿@model IEnumerable<LastChance.Models.DocumentData.Document>
+
+@{
+    ViewBag.Title = "DeleteDocument";
+}
+
+<h2>Wybierz dokument do usunięcia</h2>
+
+<table class="table table-striped" >
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Index)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentType.Description)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Line.LineName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Operation.OperationNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Version)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Index)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentType.Description)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Line.LineName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Operation.OperationNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Version)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.ActionLink("Zgłoś do usunięcia", "Delete", new { id=item.DocumentId })
+        </td>
+    </tr>
+}
+
+</table>

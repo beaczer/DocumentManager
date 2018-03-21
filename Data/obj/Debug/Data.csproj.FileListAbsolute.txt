@@ -1,0 +1,10 @@
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\bin\Debug\Data.exe.config
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\obj\Debug\Data.csprojResolveAssemblyReference.cache
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\bin\Debug\Data.exe
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\bin\Debug\Data.pdb
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\bin\Debug\EntityFramework.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\bin\Debug\EntityFramework.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\obj\Debug\Data.exe
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\Data\obj\Debug\Data.pdb

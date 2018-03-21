@@ -1,0 +1,117 @@
+﻿<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+<link rel="stylesheet" type="text/css" href="~/scripts/DataTables/jquery.dataTables.min.css">
+<script type="text/javascript" language="javascript" src="~/scripts/DataTables/jquery.dataTables.min.js"></script>  
+
+@if (Session["UserId"] != null)
+{
+    <h4>Witaj @Session["UserName"].ToString()</h4>
+
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="btn btn-default"><a href="@Url.Action("LogOut", "Log")">Wyloguj</a></li>
+            <li class="btn btn-default "><a href="@Url.Action("RegisterDocument", "Document")">Dodaj nowy dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("DeleteDocument", "Manage")">Wycofaj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("UpdateDocument", "Manage")">Aktualizuj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Index", "DocBox")">Skrzynka dokumentów</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Temp", "Manage")">Przeglądarka dokumentów</a></li>
+        </ul>
+    </div>
+
+
+<script>
+
+    $(document).ready(function () {
+        //Call EmpDetails jsonResult Method
+        $.getJSON("/Manage/EmpDetails",
+        function (json) {
+            var tr;
+            
+            for (var i = 0; i < json.length; i++) {
+                var link = '@Html.ActionLink("Pobierz PDF", "GetPdf", new { docId = -1 }, new { @class = "btn btn-default" })'
+                link = link.replace('-1', json[i].DocumentId);
+                var linkExcel = '@Html.ActionLink("Pobierz XLS", "GetExcel", new { docId = -1 }, new { @class = "btn btn-default"})'
+                linkExcel = linkExcel.replace('-1', json[i].DocumentId);
+                tr = $('<tr/>');
+                tr.append("<td>" + json[i].Index + "</td>");
+                tr.append("<td>" + json[i].DescriptionOp + "</td>");
+                tr.append("<td>" + json[i].OperationNumber + "</td>");
+                tr.append("<td>" + json[i].DocumentTypeDescription + "</td>");
+                tr.append("<td>" + json[i].LineName + "</td>");
+                tr.append("<td>" + link + "</td>");
+                tr.append("<td>" + linkExcel + "</td>");
+                $('table').append(tr);
+        }
+        $('#EmpInfo').DataTable();
+        });
+
+    });
+
+</script>
+<hr />
+
+<div class="form-horizontal">
+    <table id="EmpInfo" class="table table-bordered  table-hover">
+        <thead>
+            <tr>
+                <th>Index</th>
+                <th>DescriptionOp</th>
+                <th>OperationNumber</th>
+                <th>DocumentTypeDescription</th>
+                <th>LineName</th>
+                <th>Pobierz PDF</th>
+                <th>Pobierz XLS</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+</div>
+}
+else
+{
+
+    <script>
+
+    $(document).ready(function () {
+        //Call EmpDetails jsonResult Method
+        $.getJSON("/Manage/EmpDetails",
+        function (json) {
+            var tr;
+
+            for (var i = 0; i < json.length; i++) {
+                var link = '@Html.ActionLink("Pobierz PDF", "GetPdf", new { docId = -1 }, new { @class = "btn btn-default" })'
+                link = link.replace('-1', json[i].DocumentId);
+                tr = $('<tr/>');
+                tr.append("<td>" + json[i].Index + "</td>");
+                tr.append("<td>" + json[i].DescriptionOp + "</td>");
+                tr.append("<td>" + json[i].OperationNumber + "</td>");
+                tr.append("<td>" + json[i].DocumentTypeDescription + "</td>");
+                tr.append("<td>" + json[i].LineName + "</td>");
+                tr.append("<td>" + link + "</td>");
+                $('table').append(tr);
+        }
+        $('#EmpInfo').DataTable();
+        });
+
+    });
+
+    </script>
+    <hr />
+
+    <div class="form-horizontal">
+        <table id="EmpInfo" class="table table-bordered  table-hover">
+            <thead>
+                <tr>
+                    <th>Index</th>
+                    <th>DescriptionOp</th>
+                    <th>OperationNumber</th>
+                    <th>DocumentTypeDescription</th>
+                    <th>LineName</th>
+                    <th>Pobierz PDF</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+
+    </div>
+}

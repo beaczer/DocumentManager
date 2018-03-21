@@ -1,0 +1,105 @@
+﻿@model IEnumerable<LastChance.Models.ViewModels.UserBoxVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+
+@if (Session["UserId"] != null)
+{
+    <br />
+    <div class="panel alert-info">
+        <h4>Jesteś zalogowany jako @Session["UserName"].ToString()</h4>
+    </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="btn btn-default"><a href="@Url.Action("LogOut", "Log")">Wyloguj</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("RegisterDocument", "Document")">Dodaj nowy dokument</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("DeleteDocument", "Manage")">Wycofaj dokument</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("UpdateDocument", "Manage")">Aktualizuj dokument</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("Index", "DocBox")">Skrzynka Powiadomień</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("Temp", "Manage")">Przeglądarka dokumentów</a></li>
+            </ul>
+        </div>
+    <h2>Skrzynka powiadomień</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Index)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Status)
+        </th>
+        <th>
+            Plik do sprawdzenia
+        </th>
+        <th>
+            Decyzja
+        </th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Index)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Status)
+            </td>
+            @if (item.Status == "Oczekuje na zatwierdzenie")
+            {
+            <td>
+                @Html.ActionLink("Pobierz PDF", "GetPDF", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+            </td>
+            <td>
+                @Html.ActionLink("Zatwierdź", "SayYes", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Odrzuć", "SayNo", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+        
+                @Html.ActionLink("Dodaj komentarz", "AddComment", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+            </td>
+            }
+            else if (item.Status == "Zatwierdzona")
+            {
+            <td>
+             @Html.ActionLink("Pobierz PDF", "GetPDF", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+            </td>
+            <td>
+                @Html.ActionLink("Wydaj na linię", "MakeActive", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Wycofaj z obiegu", "CancelDocument", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+                @Html.ActionLink("Dodaj komentarz", "AddComment", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+             </td>
+            }
+            else if (item.Status == "Oczekuje na usuniecie")
+            {
+                <td>
+                    @Html.ActionLink("Pobierz PDF", "GetPDF", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+                </td>
+                <td>
+                    @Html.ActionLink("Usuń", "PutToArchive", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+                    @Html.ActionLink("CancelAction", "CancelPutToArchive", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+                    @Html.ActionLink("Dodaj komentarz", "AddComment", new { docId = item.DocumentId }, new { @class = "btn btn-default" })
+                </td>
+            }
+            else
+            {
+
+            }
+          
+                @*<td>
+                    <input type="text" name="text"  id="text"  />*@
+
+                @*<input type="submit" value="Zatwierdź" class="btn btn-default" />
+                    <input type="submit" value="Odrzuć" class="btn btn-default" />*@
+            </tr>
+    }
+
+</table>
+    
+}
+<script type="">
+    function getText()
+    {
+        return $("$comm").val();
+    }
+</script>

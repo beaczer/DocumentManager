@@ -1,0 +1,78 @@
+﻿@model LastChance.Models.DocumentData.Document
+
+@{
+    ViewBag.Title = "ShowDoc";
+}
+@if (Session["UserId"] != null)
+{
+    <br />
+        <div class="panel alert-info">
+            <h4>Jesteś zalogowany jako @Session["UserName"].ToString()</h4>
+        </div>
+        <div class="collapse navbar-collapse">
+            <ul class="nav navbar-nav">
+                <li class="btn btn-default"><a href="@Url.Action("LogOut", "Log")">Wyloguj</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("RegisterDocument", "Document")">Dodaj nowy dokument</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("DeleteDocument", "Manage")">Wycofaj dokument</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("UpdateDocument", "Manage")">Aktualizuj dokument</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("Index", "DocBox")">Skrzynka Powiadomień</a></li>
+                <li class="btn btn-default"><a href="@Url.Action("Temp", "Manage")">Przeglądarka dokumentów</a></li>
+            </ul>
+        </div>
+<h2>Aktualizuj dokument</h2>
+<br />
+using (@Html.BeginForm("ShowDoc", "Manage", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+        <div class="form-horizontal">
+            <div class="form-group">
+                @Html.LabelFor(model => model.Title, htmlAttributes: new { @class = "control-label col-md-2" })
+                @Html.TextBoxFor(model => model.Title, htmlAttributes: new { @class = "form-control" })
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.LineId, "LineId", htmlAttributes: new { @class = "control-label col-md-2", @id="Linia" })
+                @Html.DisplayFor(model => model.Line.LineName)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.OperationId, "OperationId", htmlAttributes: new { @class = "control-label col-md-2", @id="Oper" })
+                @Html.DisplayTextFor(model => model.Operation.OperationNumber)
+             </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.Operation.Description, htmlAttributes: new { @class = "control-label col-md-2", @id="Description" })
+                @Html.DisplayTextFor(model => model.Operation.Description)
+            </div>
+            <div class="form-group">
+                @Html.LabelFor(model => model.AcceptedUserId, "AcceptedUserId", htmlAttributes: new { @class = "control-label col-md-2", @id = "AcceptEmpl" })
+                @Html.DropDownList("AcceptedUserId", (SelectList)ViewData["AcceptUser"], htmlAttributes: new { @class = "form -control" })
+            </div>
+            
+                @Html.HiddenFor(model => model.Index)
+                <br />
+                <div class="form-group">
+                    @Html.LabelFor(model => model.DocumentFile, htmlAttributes: new { @class = "control-label col-md-2" })
+                    <input type="file" name="file" />
+                    <br />
+                    <div class="control-label col-md-3">
+                        <input type="submit" value="Dodaj" class="btn btn-default" width="250" />
+                    </div>
+                </div>
+</div>
+}
+}
+else
+{
+    <div>Jesteś niezalogowany, zaloguj się</div>
+}
+<script src="~/Scripts/jquery-1.10.2.min.js"></script>
+
+<script>
+    $("#AcceptEmpl").text("Zatwierdzający");
+</script>
+<script>
+    $("#Oper").text("Numer operacji");
+</script>
+<script>
+    $("#Linia").text("Nazwa linii");
+</script>
+<script>
+    $("#Description").text("Opis");
+</script>

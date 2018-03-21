@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "LoggedIn";
+}
+
+@if (Session["UserId"] != null)
+{
+    <br />
+    <div class="panel alert-info">
+        <h4>Jesteś zalogowany jako @Session["UserName"].ToString()</h4>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="btn btn-default"><a href="@Url.Action("LogOut", "Log")">Wyloguj</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("RegisterDocument", "Document")">Dodaj nowy dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("DeleteDocument", "Manage")">Wycofaj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("UpdateDocument", "Manage")">Aktualizuj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Index", "DocBox")">Skrzynka Powiadomień</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Index", "Manage")">Przeglądarka dokumentów</a></li>
+        </ul>
+    </div>
+}
+
+

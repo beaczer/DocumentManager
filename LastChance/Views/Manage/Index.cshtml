@@ -1,0 +1,84 @@
+﻿@model IEnumerable<LastChance.Models.ViewModels.DocumentAndTypeVM>
+@{
+    ViewBag.Title = "Index";
+}
+
+@if (Session["UserId"] != null)
+{
+    <br />
+    <div class="panel alert-info">
+        <h4>Jesteś zalogowany jako @Session["UserName"].ToString()</h4>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="btn btn-default"><a href="@Url.Action("LogOut", "Log")">Wyloguj</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("RegisterDocument", "Document")">Dodaj nowy dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("DeleteDocument", "Manage")">Wycofaj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("UpdateDocument", "Manage")">Aktualizuj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Index", "DocBox")">Skrzynka Powiadomień</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Temp", "Manage")">Przeglądarka dokumentów</a></li>
+        </ul>
+    </div>
+}
+<h2>Dokumenty</h2>
+
+<table class="table table-striped">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Index)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Title)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DocumentTypeDescription)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.LineName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.OperationNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DescriptionOp)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Version)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.Index, new { @class = "form-control" })
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Title)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DocumentTypeDescription)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.LineName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.OperationNumber)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DescriptionOp)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Version)
+        </td>
+        <td>
+            @Html.ActionLink("Pobierz PDF", "GetPDF", new { docId = item.DocumentId}, new { @class = "btn btn-default" })
+    @if (Session["UserId"] != null)
+    {
+        @Html.ActionLink("Pobierz XLS", "GetExcel", new { docId=item.DocumentId }, new { @class = "btn btn-default" }) 
+    }
+        </td>
+    </tr>
+}
+
+</table>

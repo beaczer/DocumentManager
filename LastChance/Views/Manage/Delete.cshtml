@@ -1,0 +1,46 @@
+﻿@model LastChance.Models.ViewModels.DocumentUserDelVM
+
+@{
+    ViewBag.Title = "Delete";
+}
+@if (Session["UserId"] != null)
+{
+    <br />
+    <div class="panel alert-info">
+        <h4>Jesteś zalogowany jako @Session["UserName"].ToString()</h4>
+    </div>
+    <div class="collapse navbar-collapse">
+        <ul class="nav navbar-nav">
+            <li class="btn btn-default"><a href="@Url.Action("LogOut", "Log")">Wyloguj</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("RegisterDocument", "Document")">Dodaj nowy dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("DeleteDocument", "Manage")">Wycofaj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("UpdateDocument", "Manage")">Aktualizuj dokument</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Index", "DocBox")">Skrzynka Powiadomień</a></li>
+            <li class="btn btn-default"><a href="@Url.Action("Temp", "Manage")">Przeglądarka dokumentów</a></li>
+        </ul>
+    </div>
+}
+
+
+<h2>Wybierz osobę zatwierdzającą usunięcie dokumentu</h2>
+
+@using (Html.BeginForm("Delete", "Manage", FormMethod.Post))
+{
+        <div class="form-group">
+            <div class="col-md-10">
+                @Html.LabelFor(model => model.UserId, "Osoba akceptująca")
+            </div>
+                @Html.DropDownList("UserId", (SelectList)ViewData["UserDoc"], new { @class = "form-control" })
+            
+        </div>
+        @Html.HiddenFor(model => model.DocId, "DocId")
+
+        <br />
+        <input type="submit" value="Zgłośc do wycofania" class="btn btn-default" />
+        }
+
+
+        <br />
+        @Html.ActionLink("Wróć do poprzedniej strony", "DeleteDocument")
+
+

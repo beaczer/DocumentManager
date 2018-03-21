@@ -1,0 +1,161 @@
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\ApplicationInsights.config
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\csc.exe
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\vbc.exe
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\LastChance.dll.config
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\LastChance.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\LastChance.pdb
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\DocumentFormat.OpenXml.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\EntityFramework.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\EntityFramework.SqlServer.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.Web.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\PdfSharp.Charting.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\PdfSharp.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Helpers.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Mvc.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Razor.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Webpages.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Webpages.Razor.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\DocumentFormat.OpenXml.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\EntityFramework.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\EntityFramework.SqlServer.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.Web.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\PdfSharp.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\PdfSharp.Charting.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Razor.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Webpages.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Webpages.Razor.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Helpers.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\System.Web.Mvc.xml
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\de\PdfSharp.resources.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\bin\de\PdfSharp.Charting.resources.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\DocumentManager.csproj.ResolveComReference.cache
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.InitialCreate.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.atr1.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations._2plikExcel.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik2.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik3.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik4.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.atr.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrVM.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.commentsidatapublic.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.comments2.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.comments3.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrybuty.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrybuty2.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrybuty3.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodanieosobyzatwierdzajacejusuniecie.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodaniedatyusunięcia.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodanieosobyzatwierdzajacejusuniecie2.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Properties.Resources.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\DocumentManager.csproj.GenerateResource.Cache
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.dll
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.pdb
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodanieIndexu.resources
+C:\Users\Beata\Documents\Visual Studio 2015\Projects\LastChance\LastChance\obj\Debug\DocumentManager.csprojResolveAssemblyReference.cache
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\ApplicationInsights.config
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\csc.exe
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\vbc.exe
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\VBCSCompiler.exe
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\LastChance.dll.config
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\LastChance.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\LastChance.pdb
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\DocumentFormat.OpenXml.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\EntityFramework.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\EntityFramework.SqlServer.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.Web.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\PdfSharp.Charting.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\PdfSharp.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Helpers.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Mvc.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Razor.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Webpages.Deployment.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Webpages.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Webpages.Razor.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\DocumentFormat.OpenXml.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\EntityFramework.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\EntityFramework.SqlServer.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.Web.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\PdfSharp.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\PdfSharp.Charting.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Razor.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Webpages.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Webpages.Deployment.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Webpages.Razor.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Helpers.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\System.Web.Mvc.xml
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\de\PdfSharp.resources.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\bin\de\PdfSharp.Charting.resources.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\DocumentManager.csprojResolveAssemblyReference.cache
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\DocumentManager.csproj.ResolveComReference.cache
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.InitialCreate.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.atr1.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations._2plikExcel.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik2.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik3.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.plik4.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.atr.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrVM.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.commentsidatapublic.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.comments2.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.comments3.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrybuty.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrybuty2.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.atrybuty3.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodanieosobyzatwierdzajacejusuniecie.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodaniedatyusunięcia.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodanieosobyzatwierdzajacejusuniecie2.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Migrations.dodanieIndexu.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.Properties.Resources.resources
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\DocumentManager.csproj.GenerateResource.Cache
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\DocumentManager.csproj.CoreCompileInputs.cache
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.dll
+C:\Users\Beata\Desktop\LastChance\LastChance\obj\Debug\LastChance.pdb
